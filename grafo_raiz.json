@@ -1,29 +1,30 @@
 {
-    "name": "P&L",
-    "children": [
+  "name": "Root",
+  "children": [
+    {
+      "name": "Categoria 1",
+      "children": [
         {
-            "name": "Net Variable fees",
-            "children": [
-                {
-                    "name": "ue_mng_net_var_fees_amt_lc"
-                },
-                {
-                    "name": "final value fee",
-                    "children": [
-                        {
-                            "name": "ue_con_final_value_fee_amt_lc"
-                        }
-                    ]
-                },
-                {
-                    "name": "commercial discount fvf",
-                    "children": [
-                        {
-                            "name": "ue_mng_discounts_fvf_amt_lc"
-                        }
-                    ]
-                }
-            ]
+          "name": "Subcategoria 1.1",
+          "children": [
+            {"name": "Mascara 1.1.1"},
+            {"name": "Mascara 1.1.2"}
+          ]
+        },
+        {"name": "Subcategoria 1.2"}
+      ]
+    },
+    {
+      "name": "Categoria 2",
+      "children": [
+        {"name": "Subcategoria 2.1"},
+        {
+          "name": "Subcategoria 2.2",
+          "children": [
+            {"name": "Mascara 2.2.1"}
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
