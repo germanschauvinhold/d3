@@ -1,0 +1,1580 @@
+{
+    "name": "P&L",
+    "children": [
+        {
+            "name": "Net Variable fees",
+            "children": [
+                {
+                    "name": "ue_mng_net_var_fees_amt_lc"
+                },
+                {
+                    "name": "final value fee",
+                    "children": [
+                        {
+                            "name": "ue_con_final_value_fee_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "commercial discount fvf",
+                    "children": [
+                        {
+                            "name": "ue_mng_discounts_fvf_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Net Fix Fees ",
+            "children": [
+                {
+                    "name": "ue_mng_net_fix_fees_amt_lc"
+                },
+                {
+                    "name": "flat fee gross",
+                    "children": [
+                        {
+                            "name": "ue_prc_flat_fee_theoretical_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "ff exceptions",
+                    "children": [
+                        {
+                            "name": "ue_prc_flat_fee_exceptions_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "commercial discounts ff",
+                    "children": [
+                        {
+                            "name": "ue_mng_discounts_ff_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "eshops fees",
+                    "children": [
+                        {
+                            "name": "ue_mng_eshops_fee_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Promotions",
+            "children": [
+                {
+                    "name": "ue_mng_promotions_amt_lc"
+                },
+                {
+                    "name": "coupons",
+                    "children": [
+                        {
+                            "name": "ue_mng_coupons_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "rebates",
+                    "children": [
+                        {
+                            "name": "ue_mng_rebate_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "meli coins",
+                    "children": [
+                        {
+                            "name": "ue_mng_meli_coin_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "other benefits",
+                    "children": [
+                        {
+                            "name": "ue_mng_rebates_track_impositivo_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vendor Margin",
+            "children": [
+                {
+                    "name": "ue_mng_vendor_margin_amt_lc"
+                },
+                {
+                    "name": "product revenue",
+                    "children": [
+                        {
+                            "name": "ue_mng_retail_revenues_amt_lc"
+                        },
+                        {
+                            "name": "revenue gross",
+                            "children": [
+                                {
+                                    "name": "ue_mng_revenue_gross_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "non-bank coupons",
+                            "children": [
+                                {
+                                    "name": "ue_mng_non_bank_coupons_discount_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "bank-coupons",
+                            "children": [
+                                {
+                                    "name": "ue_mng_bank_coupons_discount_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "returns",
+                            "children": [
+                                {
+                                    "name": "ue_mng_return_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "product cost",
+                    "children": [
+                        {
+                            "name": "ue_con_cmv_amt_lc"
+                        },
+                        {
+                            "name": "cmv gross",
+                            "children": [
+                                {
+                                    "name": "ue_mng_cmv_gross_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "sell-in discounts",
+                            "children": [
+                                {
+                                    "name": "ue_mng_sellin_discounts_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "price protection discounts",
+                            "children": [
+                                {
+                                    "name": "ue_mng_price_protection_discounts_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "anual agreements",
+                            "children": [
+                                {
+                                    "name": "ue_mng_annual_agreements_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "contra-cogs",
+                    "children": [
+                        {
+                            "name": "ue_con_contracogs_amt_lc"
+                        },
+                        {
+                            "name": "vendor co-founded coupons",
+                            "children": [
+                                {
+                                    "name": "ue_mng_vendor_cofounded_coupons_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "sell-out",
+                            "children": [
+                                {
+                                    "name": "ue_ccogs_sellout_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lumpsum",
+                            "children": [
+                                {
+                                    "name": "ue_ccogs_lumpsum_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "other vendor ccogs",
+                            "children": [
+                                {
+                                    "name": "ue_mng_other_vendor_ccogs_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Other Product Margin",
+            "children": [
+                {
+                    "name": "ue_mng_other_product_margin_amt_lc"
+                },
+                {
+                    "name": "other net revenues",
+                    "children": [
+                        {
+                            "name": "ue_mng_other_product_revenues_amt_lc"
+                        },
+                        {
+                            "name": "bank co-founded coupons",
+                            "children": [
+                                {
+                                    "name": "ue_mng_bank_cofounded_coupons_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "credit co-founded coupons",
+                            "children": [
+                                {
+                                    "name": "ue_mng_credits_cofounded_coupons_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "refurbished",
+                            "children": [
+                                {
+                                    "name": "ue_mng_refurbished_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "cmv refurbished",
+                            "children": [
+                                {
+                                    "name": "ue_mng_cmv_refurbished_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "venta liquidadores",
+                            "children": [
+                                {
+                                    "name": "ue_mng_venta_liquidadores_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "cmv venta liquidador",
+                            "children": [
+                                {
+                                    "name": "ue_mng_cmv_venta_liquidadores_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "write-off & recoveries",
+                    "children": [
+                        {
+                            "name": "ue_mng_write_off_amt_lc"
+                        },
+                        {
+                            "name": "scrap",
+                            "children": [
+                                {
+                                    "name": "ue_mng_scrap_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "triage recovery",
+                            "children": [
+                                {
+                                    "name": "ue_mng_triage_recovery_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "return to vendors",
+                            "children": [
+                                {
+                                    "name": "ue_mng_return_to_vendor_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "other product cogs",
+                    "children": [
+                        {
+                            "name": "ue_mng_other_product_cogs_amt_lc"
+                        },
+                        {
+                            "name": "amf",
+                            "children": [
+                                {
+                                    "name": "ue_mng_amf_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "foreign exchange",
+                            "children": [
+                                {
+                                    "name": "ue_mng_foreign_exchange_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "vnr",
+                            "children": [
+                                {
+                                    "name": "ue_mng_vnr_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "obsolescence",
+                            "children": [
+                                {
+                                    "name": "ue_mng_obsolescence_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "other product costs",
+                            "children": [
+                                {
+                                    "name": "ue_mng_other_product_cost_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Product Monetization",
+            "children": [
+                {
+                    "name": "ue_mng_product_net_monetization_amt_lc"
+                },
+                {
+                    "name": "product monetization",
+                    "children": [
+                        {
+                            "name": "ue_mng_product_net_monetization_adj_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Financing Net",
+            "children": [
+                {
+                    "name": "ue_mng_payments_net_amt_lc"
+                },
+                {
+                    "name": "payments revenues",
+                    "children": [
+                        {
+                            "name": "ue_mng_payments_revenues_gross_amt_lc"
+                        },
+                        {
+                            "name": "financing gross",
+                            "children": [
+                                {
+                                    "name": "ue_mng_payments_revenues_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "financing costs",
+                    "children": [
+                        {
+                            "name": "ue_mng_financing_cost_amt_lc"
+                        },
+                        {
+                            "name": "theoric financing cost",
+                            "children": [
+                                {
+                                    "name": "ue_mng_financing_cost_teoric_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "fund holding period",
+                            "children": [
+                                {
+                                    "name": "ue_mng_funds_holding_period_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "financing adjustment",
+                            "children": [
+                                {
+                                    "name": "ue_mng_financing_adj_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ratably",
+                            "children": [
+                                {
+                                    "name": "ue_mng_ratably_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "financing cost adjusment",
+                            "children": [
+                                {
+                                    "name": "ue_mng_financing_cost_adjustment_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shipping Net",
+            "children": [
+                {
+                    "name": "ue_mng_shipping_net_amt_lc"
+                },
+                {
+                    "name": "shipping revenues",
+                    "children": [
+                        {
+                            "name": "ue_mng_shipping_revenues_amt_lc"
+                        },
+                        {
+                            "name": "storage, colecta & others",
+                            "children": [
+                                {
+                                    "name": "ue_shp_revenue_storage_colecta_others_amt_lc"
+                                },
+                                {
+                                    "name": "aging",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_aging_amt_lc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "warehouse",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_warehouse_amt_lc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "withdrawal",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_withdrawal_amt_lc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "first mile revenue",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_colecta_amt_lc"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "buyer real revenue",
+                            "children": [
+                                {
+                                    "name": "ue_shp_revenue_real_buyer_amt_lc"
+                                },
+                                {
+                                    "name": "buyer theoric revenue",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_teoric_buyer_amt_lc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "buyer fs discount",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_fs_discount_buyer_amt_lc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "buyer lyl discount",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_lyl_discunt_buyer_amt_lc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "buyer mandatory discount",
+                                    "children": [
+                                        {
+                                            "name": "ue_shp_revenue_mandatory_discunt_buyer_amt_lc"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "seller real revenue",
+                            "children": [
+                                {
+                                    "name": "ue_shp_revenue_real_seller_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "shipping distribution cost var",
+                    "children": [
+                        {
+                            "name": "ue_mng_shipping_cost_amt_lc"
+                        },
+                        {
+                            "name": "first mile (incl. places)",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_first_mile_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "linehaul",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_linehaul_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "last mile",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_last_mile_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "multiwarehouse",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_multiwhs_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "service center var",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_service_center_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "commercial carriers",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_carriers_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "others",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_extra_cost_amt_lc"
+                                },
+                                {
+                                    "name": "ue_shp_ops_cost_var_extra_cost_amt_lc"
+                                },
+                                {
+                                    "name": "ue_mng_shp_ops_cost_fix_others_amt_lc"
+                                },
+                                {
+                                    "name": "ue_mng_marketing_other_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Advertising ",
+            "children": [
+                {
+                    "name": "ue_mng_ads_amt_lc"
+                },
+                {
+                    "name": "display",
+                    "children": [
+                        {
+                            "name": "ue_mng_ads_display_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "pads",
+                    "children": [
+                        {
+                            "name": "ue_mng_ads_pads_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "advertising revenues",
+                    "children": [
+                        {
+                            "name": "ue_con_advertising_revenues_nc_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Other revenues",
+            "children": [
+                {
+                    "name": "ue_mng_other_revenues_amt_lc"
+                },
+                {
+                    "name": "deferral revenues fvf",
+                    "children": [
+                        {
+                            "name": "ue_mng_def_lyl_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "deferral revenues shipping",
+                    "children": [
+                        {
+                            "name": "ue_mng_def_lyl_shp_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "other revenues",
+                    "children": [
+                        {
+                            "name": "ue_mng_other_revs_shops_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sales Taxes  ",
+            "children": [
+                {
+                    "name": "ue_mng_sales_tax_amt_lc"
+                },
+                {
+                    "name": "sales tax gross",
+                    "children": [
+                        {
+                            "name": "ue_con_sales_taxes_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "tax recovery",
+                    "children": [
+                        {
+                            "name": "ue_con_tax_recovery_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Net Monetization",
+            "children": [
+                {
+                    "name": "ue_mng_total_net_monetization_amt_lc"
+                },
+                {
+                    "name": "net monetization",
+                    "children": [
+                        {
+                            "name": "ue_mng_net_monetization_adj_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Net Revenue",
+            "children": [
+                {
+                    "name": "ue_con_net_revenues_amt_lc"
+                },
+                {
+                    "name": "shipping ops variable",
+                    "children": [
+                        {
+                            "name": "ue_mng_shipping_ops_cost_var_total_amt_lc"
+                        },
+                        {
+                            "name": "packaging",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_var_packaging_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "s&w variable",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_var_sw_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "3p logistic margin",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_var_3pl_margin_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "supplies",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_var_office_supplies_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "consolidation var",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_consolidation_var_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "others",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_extra_cost_amt_lc"
+                                },
+                                {
+                                    "name": "ue_shp_ops_cost_var_extra_cost_amt_lc"
+                                },
+                                {
+                                    "name": "ue_mng_shp_ops_cost_fix_others_amt_lc"
+                                },
+                                {
+                                    "name": "ue_mng_marketing_other_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Collection Fees ",
+            "children": [
+                {
+                    "name": "ue_mng_collection_fees_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Chargebacks ",
+            "children": [
+                {
+                    "name": "ue_mng_chargebacks_amt_lc"
+                },
+                {
+                    "name": "chargebacks gross",
+                    "children": [
+                        {
+                            "name": "ue_mng_chargebacks_gross_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "chargebacks recoveries",
+                    "children": [
+                        {
+                            "name": "ue_mng_chargebacks_recovery_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bad Debt ",
+            "children": [
+                {
+                    "name": "ue_mng_bad_dev_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "BPP",
+            "children": [
+                {
+                    "name": "ue_mng_bpp_amt_lc"
+                },
+                {
+                    "name": "cash-out",
+                    "children": [
+                        {
+                            "name": "ue_mng_bpp_cashout_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "shipping labels",
+                    "children": [
+                        {
+                            "name": "ue_mng_bpp_labels_amt_lc"
+                        },
+                        {
+                            "name": "forward",
+                            "children": [
+                                {
+                                    "name": "ue_con_bpp_forward_label_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "return",
+                            "children": [
+                                {
+                                    "name": "ue_mng_bpp_returns_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "fpp",
+                    "children": [
+                        {
+                            "name": "ue_con_bpp_fpp_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "insurance & others",
+                    "children": [
+                        {
+                            "name": "ue_mng_bpp_insurance_others_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "carriers recoveries",
+                    "children": [
+                        {
+                            "name": "ue_prx_bpp_recovery_carriers_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "insurance",
+                    "children": [
+                        {
+                            "name": "ue_prx_bpp_insurance_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Marketing Performance",
+            "children": [
+                {
+                    "name": "ue_mng_marketing_performance_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "CX Variable ",
+            "children": [
+                {
+                    "name": "ue_mng_cx_var_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Hosting Var ",
+            "children": [
+                {
+                    "name": "ue_mng_hosting_var_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Variable Contribution",
+            "children": [
+                {
+                    "name": "ue_mng_variable_contribution_amt_lc"
+                },
+                {
+                    "name": "shipping ops fix",
+                    "children": [
+                        {
+                            "name": "ue_mng_ops_cost_fix_total_amt_lc"
+                        },
+                        {
+                            "name": "rent",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_fix_rent_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "equipment",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_fix_operation_equipment_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "warehouse services",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_fix_whs_services_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "s&w fixed",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_fix_sw_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "d&a",
+                            "children": [
+                                {
+                                    "name": "ue_shp_ops_cost_fix_da_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "consolidation fix",
+                            "children": [
+                                {
+                                    "name": "ue_mng_shp_ops_cost_consolidation_fix_amt_lc"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "others",
+                            "children": [
+                                {
+                                    "name": "ue_shp_distrib_cost_extra_cost_amt_lc"
+                                },
+                                {
+                                    "name": "ue_shp_ops_cost_var_extra_cost_amt_lc"
+                                },
+                                {
+                                    "name": "ue_mng_shp_ops_cost_fix_others_amt_lc"
+                                },
+                                {
+                                    "name": "ue_mng_marketing_other_amt_lc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shipping Distribution Fix",
+            "children": [
+                {
+                    "name": "ue_mng_shp_distrib_fix_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Marketing Fix",
+            "children": [
+                {
+                    "name": "ue_mng_marketing_indirecto_amt_lc"
+                },
+                {
+                    "name": "strategic initiatives",
+                    "children": [
+                        {
+                            "name": "ue_mng_mkt_strategic_iniciatives_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "special dates",
+                    "children": [
+                        {
+                            "name": "ue_mng_mkt_special_dates_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "others",
+                    "children": [
+                        {
+                            "name": "ue_shp_distrib_cost_extra_cost_amt_lc"
+                        },
+                        {
+                            "name": "ue_shp_ops_cost_var_extra_cost_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_shp_ops_cost_fix_others_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_marketing_other_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Loyalty Content",
+            "children": [
+                {
+                    "name": "ue_mng_lyl_content_total_amt_lc"
+                },
+                {
+                    "name": "suscriptions revenues",
+                    "children": [
+                        {
+                            "name": "ue_mkt_lyl_revenue_suscriptions_total_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "content cost",
+                    "children": [
+                        {
+                            "name": "ue_mng_lyl_content_cost_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "content cost organic",
+                    "children": [
+                        {
+                            "name": "ue_mkt_lyl_content_cost_organic_total_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "content cost suscrip",
+                    "children": [
+                        {
+                            "name": "ue_mkt_lyl_content_cost_suscrip_total_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CX Fix",
+            "children": [
+                {
+                    "name": "ue_mng_cx_fix_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Hosting Fix ",
+            "children": [
+                {
+                    "name": "ue_mng_hosting_fix_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Fraud Prevention ",
+            "children": [
+                {
+                    "name": "ue_mng_fraud_prevention_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "S&M Local",
+            "children": [
+                {
+                    "name": "ue_mng_sm_local_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Sales Expenes",
+            "children": [
+                {
+                    "name": "ue_mng_sales_expenses_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Other Costs",
+            "children": [
+                {
+                    "name": "ue_mng_other_costs_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Direct Contribution",
+            "children": [
+                {
+                    "name": "ue_mng_direct_contribution_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Branding",
+            "children": [
+                {
+                    "name": "ue_mng_mkt_branding_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Product Development ",
+            "children": [
+                {
+                    "name": "ue_mng_product_development_amt_lc"
+                },
+                {
+                    "name": "subbu direct",
+                    "children": [
+                        {
+                            "name": "ue_mng_pd_subbu_direct_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "subbu indirect",
+                    "children": [
+                        {
+                            "name": "ue_mng_pd_subbu_indirect_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "G&A BU/Local",
+            "children": [
+                {
+                    "name": "ue_mng_ga_bu_amt_lc"
+                },
+                {
+                    "name": "local ovh",
+                    "children": [
+                        {
+                            "name": "ue_mng_ga_local_ovh_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "subbu corp ovh",
+                    "children": [
+                        {
+                            "name": "ue_mng_ga_subbu_corp_ovh_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_sm_subbu_corp_ovh_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "bu corp ovh",
+                    "children": [
+                        {
+                            "name": "ue_mng_ga_bu_corp_ovh_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_sm_bu_corp_ovh_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "S&M BU",
+            "children": [
+                {
+                    "name": "ue_mng_sm_bu_amt_lc"
+                },
+                {
+                    "name": "subbu corp ovh",
+                    "children": [
+                        {
+                            "name": "ue_mng_ga_subbu_corp_ovh_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_sm_subbu_corp_ovh_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "bu corp ovh",
+                    "children": [
+                        {
+                            "name": "ue_mng_ga_bu_corp_ovh_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_sm_bu_corp_ovh_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Business Contribution",
+            "children": [
+                {
+                    "name": "ue_mng_business_contribution_amt_lc"
+                },
+                {
+                    "name": "g&a corporate",
+                    "children": [
+                        {
+                            "name": "ue_mng_ga_corporate_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "s&m corporate",
+                    "children": [
+                        {
+                            "name": "ue_mng_sm_corporate_amt_lc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Business Margin ",
+            "children": [
+                {
+                    "name": "ue_mng_business_margin_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "XSELL Insurtech",
+            "children": [
+                {
+                    "name": "ue_mng_xsell_insurtech_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "XSELL Credits",
+            "children": [
+                {
+                    "name": "ue_mng_xsell_credits_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Business Margin XSELL",
+            "children": [
+                {
+                    "name": "ue_mng_business_margin_xsell_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Interco adjustments",
+            "children": [
+                {
+                    "name": "ue_mng_interco_adjustment_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Financing below EBIT ",
+            "children": [
+                {
+                    "name": "ue_mng_financing_expenses_below_ebit_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Meli Coin Theroretical Cost Adjusment",
+            "children": [
+                {
+                    "name": "ue_mng_meli_coin_theoretical_cost_adj_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Foreign Exchange  adjustment",
+            "children": [
+                {
+                    "name": "ue_mng_foreign_exchange_adjusment_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "XSELL Adjusment",
+            "children": [
+                {
+                    "name": "ue_mng_xsell_adj_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "EBIT ",
+            "children": [
+                {
+                    "name": "ue_mng_ebit_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "Other EBIT adjustments ",
+            "children": [
+                {
+                    "name": "ue_mng_other_ebit_adjustment_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "EBIT Adjusted",
+            "children": [
+                {
+                    "name": "ue_mng_ebit_adj_amt_lc"
+                }
+            ]
+        },
+        {
+            "name": "?",
+            "children": [
+                {
+                    "name": "net variable fees"
+                },
+                {
+                    "name": "net fix fees"
+                },
+                {
+                    "name": "promotions"
+                },
+                {
+                    "name": "vendor margin"
+                },
+                {
+                    "name": "other product margin"
+                },
+                {
+                    "name": "product monetization",
+                    "children": [
+                        {
+                            "name": "ue_mng_product_net_monetization_adj_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "financing net"
+                },
+                {
+                    "name": "shipping net"
+                },
+                {
+                    "name": "advertising"
+                },
+                {
+                    "name": "other revenues",
+                    "children": [
+                        {
+                            "name": "ue_mng_other_revs_shops_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "sales taxes"
+                },
+                {
+                    "name": "net monetization",
+                    "children": [
+                        {
+                            "name": "ue_mng_net_monetization_adj_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "children": [
+                        {
+                            "name": "ue_mng_direct_contribuition_adj_amt_lc"
+                        },
+                        {
+                            "name": "ue_mng_business_margin_adj_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "net revenue"
+                },
+                {
+                    "name": "collection fees"
+                },
+                {
+                    "name": "chargebacks"
+                },
+                {
+                    "name": "bad debt"
+                },
+                {
+                    "name": "bpp"
+                },
+                {
+                    "name": "marketing performance"
+                },
+                {
+                    "name": "cx variable"
+                },
+                {
+                    "name": "hosting var"
+                },
+                {
+                    "name": "variable contribution"
+                },
+                {
+                    "name": "shipping distribution fix"
+                },
+                {
+                    "name": "marketing fix"
+                },
+                {
+                    "name": "loyalty content"
+                },
+                {
+                    "name": "cx fix"
+                },
+                {
+                    "name": "hosting fix"
+                },
+                {
+                    "name": "fraud prevention"
+                },
+                {
+                    "name": "s&m local"
+                },
+                {
+                    "name": "sales expenes"
+                },
+                {
+                    "name": "other costs"
+                },
+                {
+                    "name": "direct contribution"
+                },
+                {
+                    "name": "branding"
+                },
+                {
+                    "name": "product development"
+                },
+                {
+                    "name": "g&a bu/local"
+                },
+                {
+                    "name": "s&m bu"
+                },
+                {
+                    "name": "business contribution"
+                },
+                {
+                    "name": "business margin"
+                },
+                {
+                    "name": "xsell insurtech"
+                },
+                {
+                    "name": "xsell credits"
+                },
+                {
+                    "name": "business margin xsell"
+                },
+                {
+                    "name": "interco adjustments"
+                },
+                {
+                    "name": "financing below ebit"
+                },
+                {
+                    "name": "meli coin theroretical cost adjusment"
+                },
+                {
+                    "name": "foreign exchange  adjustment"
+                },
+                {
+                    "name": "xsell adjusment"
+                },
+                {
+                    "name": "ebit"
+                },
+                {
+                    "name": "other ebit adjustments"
+                },
+                {
+                    "name": "ebit adjusted"
+                }
+            ]
+        }
+    ]
+}
