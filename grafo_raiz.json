@@ -747,6 +747,25 @@
             ]
         },
         {
+            "name": "",
+            "children": [
+                {
+                    "name": "net monetization",
+                    "children": [
+                        {
+                            "name": "ue_mng_net_monetization_adj_amt_lc"
+                        }
+                    ]
+                },
+                {
+                    "name": "ue_mng_direct_contribuition_adj_amt_lc"
+                },
+                {
+                    "name": "ue_mng_business_margin_adj_amt_lc"
+                }
+            ]
+        },
+        {
             "name": "Net Revenue",
             "children": [
                 {
@@ -1398,181 +1417,6 @@
             "children": [
                 {
                     "name": "ue_mng_ebit_adj_amt_lc"
-                }
-            ]
-        },
-        {
-            "name": "?",
-            "children": [
-                {
-                    "name": "net variable fees"
-                },
-                {
-                    "name": "net fix fees"
-                },
-                {
-                    "name": "promotions"
-                },
-                {
-                    "name": "vendor margin"
-                },
-                {
-                    "name": "other product margin"
-                },
-                {
-                    "name": "product monetization",
-                    "children": [
-                        {
-                            "name": "ue_mng_product_net_monetization_adj_amt_lc"
-                        }
-                    ]
-                },
-                {
-                    "name": "financing net"
-                },
-                {
-                    "name": "shipping net"
-                },
-                {
-                    "name": "advertising"
-                },
-                {
-                    "name": "other revenues",
-                    "children": [
-                        {
-                            "name": "ue_mng_other_revs_shops_amt_lc"
-                        }
-                    ]
-                },
-                {
-                    "name": "sales taxes"
-                },
-                {
-                    "name": "net monetization",
-                    "children": [
-                        {
-                            "name": "ue_mng_net_monetization_adj_amt_lc"
-                        }
-                    ]
-                },
-                {
-                    "name": "",
-                    "children": [
-                        {
-                            "name": "ue_mng_direct_contribuition_adj_amt_lc"
-                        },
-                        {
-                            "name": "ue_mng_business_margin_adj_amt_lc"
-                        }
-                    ]
-                },
-                {
-                    "name": "net revenue"
-                },
-                {
-                    "name": "collection fees"
-                },
-                {
-                    "name": "chargebacks"
-                },
-                {
-                    "name": "bad debt"
-                },
-                {
-                    "name": "bpp"
-                },
-                {
-                    "name": "marketing performance"
-                },
-                {
-                    "name": "cx variable"
-                },
-                {
-                    "name": "hosting var"
-                },
-                {
-                    "name": "variable contribution"
-                },
-                {
-                    "name": "shipping distribution fix"
-                },
-                {
-                    "name": "marketing fix"
-                },
-                {
-                    "name": "loyalty content"
-                },
-                {
-                    "name": "cx fix"
-                },
-                {
-                    "name": "hosting fix"
-                },
-                {
-                    "name": "fraud prevention"
-                },
-                {
-                    "name": "s&m local"
-                },
-                {
-                    "name": "sales expenes"
-                },
-                {
-                    "name": "other costs"
-                },
-                {
-                    "name": "direct contribution"
-                },
-                {
-                    "name": "branding"
-                },
-                {
-                    "name": "product development"
-                },
-                {
-                    "name": "g&a bu/local"
-                },
-                {
-                    "name": "s&m bu"
-                },
-                {
-                    "name": "business contribution"
-                },
-                {
-                    "name": "business margin"
-                },
-                {
-                    "name": "xsell insurtech"
-                },
-                {
-                    "name": "xsell credits"
-                },
-                {
-                    "name": "business margin xsell"
-                },
-                {
-                    "name": "interco adjustments"
-                },
-                {
-                    "name": "financing below ebit"
-                },
-                {
-                    "name": "meli coin theroretical cost adjusment"
-                },
-                {
-                    "name": "foreign exchange  adjustment"
-                },
-                {
-                    "name": "xsell adjusment"
-                },
-                {
-                    "name": "ebit"
-                },
-                {
-                    "name": "other ebit adjustments"
-                },
-                {
-                    "name": "ebit adjusted"
                 }
             ]
         }
